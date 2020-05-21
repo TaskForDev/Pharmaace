@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PharmaACE.ChartAudit.Models
+{
+    public class ReportDetails
+    {
+        public int ReportId { get; set; }
+
+        public string SubCategoryName { get; set; }
+
+        public int CategoryId { get; set; }
+        public int? SubcategoryId { get; set; }
+        public string Description { get; set; }
+        public string ImageUrl { get; set; }
+        public bool IsPublic { get; set; }
+ public int ReportViewCountForCurrentUser { get; set; }
+        public bool IsViewed { get; set; }
+        public List<int> GroupIds { get; set; }
+        public int? UserAuthor { get; set; }
+
+        public string UserAuthorName { get; set; }
+        public int? ReportViewCount { get; set; }                                                 
+        public bool ReportLike { get; set; }
+        public List<ReportSlides> ReportSlideList { get; set; }
+        public List<UserGroupMapping> UserGroupMapping { get; set; }
+        public DateTime CreationDate { get; set; }
+
+        public List<GroupInfo> GroupInfos { get; set; }
+ public int? GlobalReportViewCount { get; set; }
+        public int? ReportLikeCount { get; set; }
+    }
+    public class UserGroupMapping
+    {
+        public int GroupId;
+        public int UserId;
+    }
+
+    public class GroupInfo
+    {
+        public int GroupId { get; set; }
+
+        public string GroupName { get; set; }
+    }
+}

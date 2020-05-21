@@ -1,0 +1,51 @@
+ISO8859-1
+Monthly|1
+(noun)|month| Monthly | Monthly share | Month share
+ShareR2M|1
+(noun)|rolling share for 2 months|rolling share for two months|2 months rolling share|2 month rolling share|two months rolling share|two months rolling share|R2M|2MR
+ShareR3M|1
+(noun)|rolling share for 3 months|rolling share for three months|3 months rolling share|3 month rolling share|three months rolling share|three months rolling share|R3M|3MR
+NSCLC|1
+(noun)|Lung| non small cell| non small cell lung cancer
+SQ|1
+(noun)|Squam|squamous| Squamous NSCLC| SQ NSCLC
+NSQ|1
+(noun)|non-Squam|non Squam|nonSquam|non-Squamous|non Squamous|nonSquamous| NSQ NSCLC
+1L|1
+(noun)|First Line|1st line|Line one|Line 1|1 line| 1L | L1
+2L|1
+(noun)|Second Line|2nd line|Line two|Line 2|2 line| 2L | L2
+SCLC|1
+(noun)|Small cell| small cell lung cancer
+3L|1
+(noun)|Third Line|3rd line|Line three|Line 3|3 line| 3L | L3
+mMel|1
+(noun)|Met Mel| 1st Line Met Mel| First Line Met Mel| Melanoma 1st Line| Met Mel 1st Line| Met mel first Line|melanoma
+ADJ Melanoma|1
+(noun)|Adjuvant Melanoma|Adjuvant|Adj
+SCCHN|1
+(noun)|Head and Neck|Head & Neck|Head Neck|head,neck|head, neck|head+neck|head + neck
+RCC|1
+(noun)|Renal cell carcinoma| Renal
+K+Chemo|1
+Keytruda plus Chemo| keytruda + Chemo| keytuda+Chemo| Keytruda Chemo combo| Keytruda Chemo combination| Keytruda and Chemo| Keytruda and Chemo Combo
+O+Chemo|1
+Opdivo plus Chemo| Opdivo + Chemo| Opdivo+Chemo| Opdvio Chemo combo| Opdivo Chemo combination| Opdivo and Chemo| Opdivo and Chemo Combo
+O+Y|1
+Opdivo plus Yervoy| Opdivo + Yervoy| Opdivo+yervoy| regimen| 
+cabometyx|1
+(noun)|cabo| 
+PD-L1|1
+(noun)|PDL1|PD1|tester|PD-L1|
+PD-L1 +ve
+(noun)|PDL1 positive| PDl1+ve| PDL1 +ve| PD1 positive| PD1+ve| PD1 +ve| PD-L1 positive| PD-L1 +ve| PD-L1+ve|
+PD-L1 -ve
+(noun)|PDL1 negative| PDl1-ve| PDL1 -ve| PD1 Negative| PD1-ve| PD1 -ve| PD-L1 negative| PD-L1 -ve| PD-L1-ve|
+PD-L1 UT/INC
+(noun)|PDL1 Untested|PDl1 UT| PDL1 UT/INC| PD1 Untested| PD1 UT| PD1 UT/INC| PD-L1 Untested| PD-L1 UT| PD-L1 UT/INC|
+positive|1
+(noun)|+ve|positivity
+negative|1
+(noun)|-ve|negativity
+testing rate|1
+(noun)|rate of testing|test rate|rate of test

@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.ChartAudit.Reporting.EntityProvider", "PharmaACE.ChartAudit.Reporting.EntityProvider\PharmaACE.ChartAudit.Reporting.EntityProvider.csproj", "{DA891815-7EB9-4985-B14F-4DB6B52D835C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.ChartAudit.Repository", "PharmaACE.ChartAudit.Repository\PharmaACE.ChartAudit.Repository.csproj", "{2D0B8AF4-9089-48E5-AE5F-024B52A8D6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.ChartAudit.IRepository", "PharmaACE.ChartAudit.IRepository\PharmaACE.ChartAudit.IRepository.csproj", "{07E8DD63-DC09-426D-8573-F8ABE2F4FB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.ChartAudit.Utility", "PharmaACE.ChartAudit.Utility\PharmaACE.ChartAudit.Utility.csproj", "{299747AE-D5A1-4890-B95D-87132093CFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.ChartAudit.Models", "PharmaACE.ChartAudit.Models\PharmaACE.ChartAudit.Models.csproj", "{4F8EB209-6E83-4FC8-BC2E-9B9AE16E84DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.Responder", "PharmaACE.NLP.RuleClient\PharmaACE.NLP.Responder.csproj", "{A3137D4D-3DC3-4472-B700-5C882DF193A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.Framework", "PharmaACE.NLP.RuleEngine\PharmaACE.NLP.Framework.csproj", "{2FEFF0BD-EA04-4490-97F4-1CCC2863FA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.Tests", "PharmaACE.NLP.Tests\PharmaACE.NLP.Tests.csproj", "{1723CBDC-81E8-404B-AC6A-D43CD3E59AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.Utility", "PharmaACE.Utility\PharmaACE.Utility.csproj", "{5B4437DC-F826-4204-AAAB-78B2815F1E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.Modules", "PharmaACE.NLP.Modules\PharmaACE.NLP.Modules.csproj", "{C0558CFA-0317-4C25-9C24-C140CC8702C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.QuestionAnswerService", "PharmaACE.NLP.QuestionAnswerService\PharmaACE.NLP.QuestionAnswerService.csproj", "{412B4594-5D12-4B39-9787-21408D3E4288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaACE.NLP.DateTimeParser", "PharmaACE.NLP.DateTimeParser\PharmaACE.NLP.DateTimeParser.csproj", "{9599A9FF-B874-4401-A05F-426CB67E042D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA891815-7EB9-4985-B14F-4DB6B52D835C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA891815-7EB9-4985-B14F-4DB6B52D835C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA891815-7EB9-4985-B14F-4DB6B52D835C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA891815-7EB9-4985-B14F-4DB6B52D835C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0B8AF4-9089-48E5-AE5F-024B52A8D6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0B8AF4-9089-48E5-AE5F-024B52A8D6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0B8AF4-9089-48E5-AE5F-024B52A8D6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0B8AF4-9089-48E5-AE5F-024B52A8D6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E8DD63-DC09-426D-8573-F8ABE2F4FB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E8DD63-DC09-426D-8573-F8ABE2F4FB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E8DD63-DC09-426D-8573-F8ABE2F4FB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E8DD63-DC09-426D-8573-F8ABE2F4FB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299747AE-D5A1-4890-B95D-87132093CFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299747AE-D5A1-4890-B95D-87132093CFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299747AE-D5A1-4890-B95D-87132093CFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299747AE-D5A1-4890-B95D-87132093CFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8EB209-6E83-4FC8-BC2E-9B9AE16E84DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8EB209-6E83-4FC8-BC2E-9B9AE16E84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8EB209-6E83-4FC8-BC2E-9B9AE16E84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8EB209-6E83-4FC8-BC2E-9B9AE16E84DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3137D4D-3DC3-4472-B700-5C882DF193A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3137D4D-3DC3-4472-B700-5C882DF193A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3137D4D-3DC3-4472-B700-5C882DF193A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3137D4D-3DC3-4472-B700-5C882DF193A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEFF0BD-EA04-4490-97F4-1CCC2863FA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEFF0BD-EA04-4490-97F4-1CCC2863FA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEFF0BD-EA04-4490-97F4-1CCC2863FA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEFF0BD-EA04-4490-97F4-1CCC2863FA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1723CBDC-81E8-404B-AC6A-D43CD3E59AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1723CBDC-81E8-404B-AC6A-D43CD3E59AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1723CBDC-81E8-404B-AC6A-D43CD3E59AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1723CBDC-81E8-404B-AC6A-D43CD3E59AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4437DC-F826-4204-AAAB-78B2815F1E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4437DC-F826-4204-AAAB-78B2815F1E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4437DC-F826-4204-AAAB-78B2815F1E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4437DC-F826-4204-AAAB-78B2815F1E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0558CFA-0317-4C25-9C24-C140CC8702C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0558CFA-0317-4C25-9C24-C140CC8702C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0558CFA-0317-4C25-9C24-C140CC8702C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0558CFA-0317-4C25-9C24-C140CC8702C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412B4594-5D12-4B39-9787-21408D3E4288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412B4594-5D12-4B39-9787-21408D3E4288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412B4594-5D12-4B39-9787-21408D3E4288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412B4594-5D12-4B39-9787-21408D3E4288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9599A9FF-B874-4401-A05F-426CB67E042D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9599A9FF-B874-4401-A05F-426CB67E042D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9599A9FF-B874-4401-A05F-426CB67E042D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9599A9FF-B874-4401-A05F-426CB67E042D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D6F893-10AD-446E-9FFF-BADBFEF46074}
+	EndGlobalSection
+EndGlobal

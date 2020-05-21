@@ -1,0 +1,36 @@
+2018/06/04 13:15:39.488 |  shares for melanoma and lung
+2018/06/04 13:15:39.655 |  trying to predict query
+2018/06/04 13:15:41.518 |  Inside ApplyNEDRules, pan tumor: False
+2018/06/04 13:15:43.761 |  
+SELECT shmeasure.Tumor, shmeasure.Line, shmeasure.Segment, shmeasure.SubSegment, shmeasure.Regimen, shmeasure.Monthyear, shmeasure.Share
+From shmeasure
+WHERE (shmeasure.Tumor = 'Melanoma'
+AND shmeasure.Segment = 'Total'
+AND shmeasure.SubSegment = 'Total'
+AND shmeasure.Regimen = 'Keytruda'
+AND shmeasure.Monthyear >= '2017-03-01'
+AND shmeasure.Monthyear <= '2018-03-01' OR  shmeasure.Tumor = 'NSCLC'
+AND shmeasure.Segment = 'Total'
+AND shmeasure.SubSegment = 'Total'
+AND shmeasure.Regimen = 'Keytruda'
+AND shmeasure.Monthyear >= '2017-03-01'
+AND shmeasure.Monthyear <= '2018-03-01');
+
+2018/06/04 16:35:11.427 |  shares for melanoma and lung
+2018/06/04 16:35:11.618 |  trying to predict query
+2018/06/04 16:35:13.279 |  Inside ApplyNEDRules, pan tumor: False
+2018/06/04 16:35:15.523 |  
+SELECT shmeasure.Tumor, shmeasure.Line, shmeasure.Segment, shmeasure.SubSegment, shmeasure.Regimen, shmeasure.Monthyear, shmeasure.Share
+From shmeasure
+WHERE (shmeasure.Tumor = 'Melanoma'
+AND shmeasure.Segment = 'Total'
+AND shmeasure.SubSegment = 'Total'
+AND shmeasure.Regimen = 'Keytruda'
+AND shmeasure.Monthyear >= '2017-03-01'
+AND shmeasure.Monthyear <= '2018-03-01' OR  shmeasure.Tumor = 'NSCLC'
+AND shmeasure.Segment = 'Total'
+AND shmeasure.SubSegment = 'Total'
+AND shmeasure.Regimen = 'Keytruda'
+AND shmeasure.Monthyear >= '2017-03-01'
+AND shmeasure.Monthyear <= '2018-03-01');
+
